@@ -17,7 +17,7 @@ export default function UseState() {
     setcount(count + 1);
   }
   function updateData() {
-    setData("Seta");
+    setData("deta");
   }
   return (
     <>
