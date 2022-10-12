@@ -1,5 +1,6 @@
 import React from "react";
 import ApiFetching from "./components/ApiFetching";
+import UseReducer from "./components/UseReducer";
 
 // import UseState from "./components/UseState";
 // import UseEffect from "./components/UseEffect";
@@ -15,7 +16,8 @@ function App() {
       {/* <UseRef /> */}
       {/* <Parent /> */}
       {/* <UseMemo /> */}
-      <ApiFetching />
+      <UseReducer />
+      {/* <ApiFetching /> */}
     </div>
   );
 }
